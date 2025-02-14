@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: GPL-2.0
+# Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
+
+PKG_NAME="game.shader.presets"
+PKG_VERSION="Piers"
+#PKG_SHA256="18548b996401ca009f282441044ce8f4324533906505a739b4dc0172211ddcc9"
+PKG_REV="1"
+PKG_ARCH="any"
+PKG_LICENSE="GPL"
+PKG_SITE="https://github.com/kodi-game/game.shader.presets"
+PKG_URL="https://github.com/KOPRajs/game.shader.presets/archive/${PKG_VERSION}.tar.gz"
+PKG_DEPENDS_TARGET="toolchain kodi-platform"
+PKG_SECTION=""
+PKG_SHORTDESC="game.shader.presets: Shader preset support"
+PKG_LONGDESC="game.shader.presets adds libretro meta shader preset support"
+
+PKG_IS_ADDON="yes"
+PKG_ADDON_TYPE="kodi.gameclient"
